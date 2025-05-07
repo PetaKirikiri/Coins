@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Table from "./Components/Table";
 
 function App() {
-  return <div>change 3</div>;
+  return (
+    <div>
+      <Table />
+      <Table />
+    </div>
+  );
 }
 
 export default App;
